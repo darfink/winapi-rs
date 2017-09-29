@@ -48,7 +48,7 @@ extern "system" {
     // pub fn glColor4bv();
     // pub fn glColor4d();
     // pub fn glColor4dv();
-    // pub fn glColor4f();
+    pub fn glColor4f(red: GLfloat, green: GLfloat, blue: GLfloat, alpha: GLfloat);
     // pub fn glColor4fv();
     // pub fn glColor4i();
     // pub fn glColor4iv();
